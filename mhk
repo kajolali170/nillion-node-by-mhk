@@ -1,0 +1,26 @@
+NILLION VERIFIER NODE RUN EASY STEPS 
+
+Use Command One By One:
+
+sudo apt update && sudo apt install curl && curl -fsSL https://get.docker.com -o
+get-docker.sh && sudo sh get-docker.sh (copy)
+
+sudo docker pull nillion/retailtoken-accuser:latest 
+(copy)
+
+mkdir -p nillion/accuser && sudo docker run -v ./nillion/accuser:/var/tmp
+nillion/retailtoken-accuser:latest initialise (copy)
+
+cat ~/nillion/accuser/credentials.json
+(copy)
+
+[[ IMPORTANT - SAVE YOUR PRIVATE KEY + Public KEY + ADDRESS ]]
+
+[[ IMPORTANT - GRAB FAUCET DAILY ON YOUR COMMAND PROMPTS NILLION
+ADDRESS , IT IS IMPORTANT TO RUN IT CONTINOUSLY ]]
+
+TAKE 6-7 hours BREAK
+
+NOW RUN Final 7th COMMAND FROM WEBSITE
+
+Join our Telegram:https://t.me/MrMhkBD
